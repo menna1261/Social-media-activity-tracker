@@ -5,12 +5,7 @@
 #include<vector>
 #include<queue>
 #include<cassert>
-
 template<class T>
-
-
-
-
 class AVLTree
 {
     private:
@@ -240,9 +235,6 @@ class AVLTree
           case 3:
             return node;
             break;
-
-
-
         }
          return node;
         }
@@ -288,19 +280,6 @@ int return_index(int k){
         int index = it - sizes.begin();
        return index;
     }}
-
-
-
-
-
-
-
-
-
-
-
-
-
 };
 
 #endif // AVLTREE_H
